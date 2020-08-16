@@ -1,3 +1,7 @@
+* {
+  font-family: "Nanum Pen Script", cursive;
+}
+
 body {
   height: 100vh;
   background-color: #090c0f;
@@ -8,8 +12,14 @@ body {
   flex-direction: column;
 }
 
-.btn {
+button {
   cursor: pointer;
+  background-color: transparent;
+  border: 0px transparent solid;
+  text-align: center;
+  justify-items: center;
+  justify-content: center;
+  font-size: 15px;
 }
 
 .clicked {
@@ -23,6 +33,10 @@ body {
 
 .showing {
   display: block;
+  position: absolute;
+  top: 0;
+  font-size: 20px;
+  color: white;
 }
 
 @keyframes fadeIn {
@@ -42,20 +56,63 @@ body {
   height: 100%;
   z-index: -1;
   animation: fadeIn 0.5s linear;
-  opacity: 0.3;
+  opacity: 0.4;
 }
 
 h1 {
   font-size: 100px;
-  color: white;
+  margin: 0;
+}
+
+h3 {
+  font-size: 30px;
+  margin: 0;
+  text-align: center;
 }
 
 li {
   list-style: none;
+  font-size: 30px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
 }
 
 .js-weather {
   position: absolute;
   top: 10px;
   right: 10px;
+}
+
+.js-toDoListDiv {
+  height: 200px;
+  width: 400px;
+  overflow: auto;
+}
+
+.js-toDoListH2 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.js-toDoListDiv::-webkit-scrollbar {
+  width: 10px;
+}
+
+.js-toDoListDiv::-webkit-scrollbar-thumb {
+  background-color: #2f3542;
+}
+
+.js-toDoListDiv::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+[type="text"] {
+  background-color: transparent;
+  border: 1px dashed white;
+  size: 200px;
+  font-size: 20px;
+  color: white;
 }

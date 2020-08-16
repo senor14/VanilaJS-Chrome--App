@@ -5,10 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>VanillaJS</title>
     <link rel="stylesheet" href="src/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
+    <h4 class="js-greetings greetings"></h4>
     <span class="js-weather"></span>
-    <div class="js-clock">
+    <div class="js-date">
+      <h3></h3>
       <h1>
         00:00
       </h1>
@@ -19,13 +25,18 @@
     <h4 class="js-greetings greetings"></h4>
     <form class="js-toDoForm">
       <input type="text" placeholder="할 일 목록 추가" />
+      <h2 class="js-toDoListH2">할 일 목록</h2>
     </form>
-    <ul class="js-toDoList"></ul>
-
-    <script src="src/clock.js"></script>
+    <div class="js-toDoListDiv">
+      <ul class="js-toDoList"></ul>
+    </div>
+    <script src="src/date.js"></script>
     <script src="src/greeting.js"></script>
     <script src="src/todo.js"></script>
     <script src="src/bg.js"></script>
-    <script src="src/weather.js"></script>
+    <script
+      src="https://kit.fontawesome.com/df75ca02b9.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
