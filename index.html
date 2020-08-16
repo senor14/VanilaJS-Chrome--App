@@ -25,18 +25,27 @@
     <h4 class="js-greetings greetings"></h4>
     <form class="js-toDoForm">
       <input type="text" placeholder="할 일 목록 추가" />
-      <h2 class="js-toDoListH2">할 일 목록</h2>
+      <br /><br /><br />
     </form>
-    <div class="js-toDoListDiv">
-      <ul class="js-toDoList"></ul>
-    </div>
+    <span>
+      <div class="js-pendingDiv jpd">
+        <h2 class="js-pendingH2 h2">할 일 목록</h2>
+        <hr />
+        <div class="js-pendingDiv DIV">
+          <ul class="js-pending"></ul>
+        </div>
+      </div>
+      <div class="js-finishedDiv jpd">
+        <h2 class="js-finishedH2 h2">완료 목록</h2>
+        <hr />
+        <div class="js-finishedDiv DIV">
+          <ul class="js-finished"></ul>
+        </div>
+      </div>
+    </span>
     <script src="src/date.js"></script>
     <script src="src/greeting.js"></script>
     <script src="src/todo.js"></script>
     <script src="src/bg.js"></script>
-    <script
-      src="https://kit.fontawesome.com/df75ca02b9.js"
-      crossorigin="anonymous"
-    ></script>
   </body>
 </html>
