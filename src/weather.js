@@ -13,7 +13,7 @@ function getWeather(lat, lng) {
     .then(function (json) {
       const temperature = json.main.temp;
       const place = json.name;
-      weather.innerText = `${temperature} @ ${place}`;
+      weather.innerText = `${temperature} °C @ ${place}`;
     });
 }
 
@@ -42,7 +42,7 @@ function askForCoords() {
 
 function loadCoords() {
   const loadedCoords = localStorage.getItem(COORDS);
-  if (loadedCoords === null || loadedCoords === "undefined") {
+  if (loadedCoords === null) {
     askForCoords();
   } else {
     const parsedCoords = JSON.parse(loadedCoords);

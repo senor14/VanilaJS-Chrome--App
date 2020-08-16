@@ -53,3 +53,9 @@ h1 {
 li {
   list-style: none;
 }
+
+.js-weather {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
