@@ -13,3 +13,4 @@ cherry
 blueberry
 raspberry
 kiwi
+pineapple
