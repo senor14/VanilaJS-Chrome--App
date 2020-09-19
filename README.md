@@ -17,4 +17,3 @@ pineapple
 mango
 avocado
 peach
-starfruit
