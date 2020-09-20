@@ -16,4 +16,3 @@ kiwi
 pineapple
 mango
 avocado
-peach
