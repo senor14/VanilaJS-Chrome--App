@@ -15,4 +15,3 @@ raspberry
 kiwi
 pineapple
 mango
-avocado
