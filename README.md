@@ -14,4 +14,3 @@ blueberry
 raspberry
 kiwi
 pineapple
-mango
