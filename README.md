@@ -12,4 +12,3 @@ melon
 cherry
 blueberry
 raspberry
-kiwi
