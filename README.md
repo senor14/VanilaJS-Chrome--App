@@ -8,4 +8,3 @@ strawberry
 berry
 banana
 orange
-melon
