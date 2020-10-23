@@ -6,4 +6,3 @@ apple
 grape
 strawberry
 berry
-banana
